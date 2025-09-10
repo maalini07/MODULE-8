@@ -23,8 +23,18 @@ To write a Python program that checks if a given string ends with a number using
 ---
 
 ## 💻  Program
-Add Code here
+```
+def ends_with_digit(s):
+    return s[-1].isdigit() if s else False 
+input_str = input("Enter a string: ")
+if ends_with_digit(input_str):
+    print("✅ The string ends with a numeric digit.")
+else:
+    print("❌ The string does NOT end with a numeric digit.")
+```
 
 ## Output
+<img width="518" height="132" alt="444352316-e0906845-6b20-4e8b-bcee-cfcd61ff2ee7" src="https://github.com/user-attachments/assets/6d4aaf9b-f54c-450d-b14e-e8e56e0693de" />
 
 ## Result
+Thus, the program has executed successfully
